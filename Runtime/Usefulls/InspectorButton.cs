@@ -154,7 +154,7 @@ public struct InspectorButton
                 }
                 catch(Exception e)
                 {
-                    Debug.LogException(new Exception("An Exception was thrown during an InspectorButton press.", e);
+                    Debug.LogException(new Exception("An Exception was thrown during an InspectorButton press.", e));
                 }
                 finally
                 {
